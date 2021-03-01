@@ -1,0 +1,65 @@
+.Calculadora{
+    padding: 20px;
+    max-width: 300px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 8px 16px 0 rgb(89, 187, 253);
+  }
+  .Calculadora{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  h2{
+    flex-basis: 100%;
+    text-align: center;
+  }
+  
+  #resultado{
+    flex-basis: 100%;
+    text-align: center;
+  }
+  
+  
+  .linha{
+      display: flex;
+      margin-top: 40px;
+      justify-content: space-around;
+    }
+    
+    .App{
+      margin: auto;
+      max-width: 900px;
+    }
+    
+  .logotipo img{
+      width: 90px;
+      height: 120px;
+    }
+    .logotipo{
+      align-items: center;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-top: 100px;
+    }
+    
+    .logos img{
+      width: 40px;
+      height: 40px;
+    }
+    .logos{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+    }
+    
+    img{
+        display: inline;
+        padding-right: 8px;
+    }

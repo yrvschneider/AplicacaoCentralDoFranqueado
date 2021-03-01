@@ -26,7 +26,7 @@ function calculaFibonacci() {
     }
 
 //Ira reiniciar as Variaveis, para começar a popular as array
-    fibonacciArray = [count];
+    fibonacciArray = [];
     ultimo = 1;
     penultimo = 0;
     fibonacci = 0;
